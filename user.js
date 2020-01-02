@@ -7,3 +7,14 @@ function getData(){
         })
     })
 }
+function submit(){
+    var data = {
+        firstName:'',
+        lastName:'',
+        address:''
+    }
+    data.firstName = document.getElementById('fname').innerText;
+    data.lastName = document.getElementById('lname').innerText;
+    data.address = document.getElementById('address').innerText;
+    
+}
